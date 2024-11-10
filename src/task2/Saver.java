@@ -1,4 +1,4 @@
-package task1;
+package task2;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,7 +7,5 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface Rectangle {
-    int width();
-    int height();
+public @interface Saver {
 }
